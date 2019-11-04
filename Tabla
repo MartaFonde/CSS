@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: red;
+        }
+        
+        table {
+            width: 100%;
+            border: 1px dotted grey;
+            /* border-style: dotted;
+            border-width: 1px;
+            border-color: grey; */
+            text-align: center;
+        }
+        
+        td {
+            background-color: greenyellow;
+        }
+        
+        .yellow {
+            background-color: yellow;
+        }
+        
+        th {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The days of the working week</h1>
+    <table>
+        <tr class="castellano">
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr class="ingles">
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+        </tr>
+        <tr class="ingles">
+
+            <td class="yellow">Lundi</td>
+            <td>Mardi</td>
+            <td class="yellow">Mercredi</td>
+            <td>Jeudi</td>
+            <td class="yellow">Vendredi</td>
+
+        </tr>
+    </table>
+</body>
+
+
+</html>
