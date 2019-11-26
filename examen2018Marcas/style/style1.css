@@ -1,0 +1,83 @@
+    * {
+        font-family: verdana;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        /*Quitar margenes y paddings de toda la pagina. El body tiene margenes por defecto.*/
+    }
+    
+    header {
+        background-color: #ff0080;
+        color: white;
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+        text-align: center;
+        background-image: url("Imagenes/corona.png");
+        background-repeat: no-repeat;
+    }
+    
+    header h1 {
+        position: relative;
+        top: 30%;
+        /*Relative --> Referencia: su posición inicial, conserva ese espacio (static)*/
+    }
+    
+    nav {
+        width: 90%;
+        background-color: #fcbfe1;
+        color: white;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    nav li {
+        margin-right: 10%;
+        display: inline;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    nav a:hover {
+        color: grey;
+    }
+    
+    #izquierda {
+        float: left;
+        margin-left: 5%;
+        height: 420px;
+        width: 60%;
+        background-image: url("Imagenes/fondo-coronas.jpg");
+    }
+    
+    #izquierda table {
+        background-color: white;
+        margin-top: 8%;
+        margin-left: 25%;
+    }
+    
+    #boton {
+        background-color: #ff0080;
+        color: white;
+        margin-left: 60%;
+    }
+    
+    #derecha {
+        float: right;
+        margin-right: 5%;
+        padding-right: 4%;
+        padding-left: 4%;
+        border: 5px dashed #ff0080;
+    }
+    
+    footer {
+        clear: both;
+        bottom: 0%;
+        margin-left: 5%;
+        width: 90%;
+        color: white;
+        background-image: linear-gradient(to right, #ff0080, #fcbfe1, #ffffff);
+    }
